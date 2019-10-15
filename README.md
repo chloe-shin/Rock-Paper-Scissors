@@ -1,49 +1,31 @@
 # CoderSchool FTW - * Rock Paper Scissors Game by ReactJS *
 
 Created with love by: Chloe Shin
-Please check my game at: https://chloe-game-chuonchuon.netlify.com 
+Please check my game at: https://chloe-rock-paper-scissors.netlify.com
 
 
-## Code Reviews
 
-This code was reviewed by Charles and Loi. 
+## Accomplished requirements : Please check what I have done
+- [x] User can see three buttons labeled Rock, Paper, Scissors.
+- [x] User can press one of the buttons to make their choice.
+- [x] User faces a computer who also makes a choice from Rock, Paper or Scissors.
+- [x] User can see text indicating that they've won, lost, or tied.
+- [x] User can see either green/red depending on whether or not they've won.
+- [x] User can see a game history which lists the rounds played so far and outcome.
 
+## Advanced requirements
+- [ ] User can only play the game once they've pressed a button titled Start.
+- [ ] User can sign in and have their name attributed to the victory.
+- [x] User can see the prompt colored correctly based on the outcome of the game. If player has won, "Victory!" is green. If player has loss, "Defeat!" is red. If the result is a tie, the text remains black.
+- [ ] User sees "flawless" victory behavior in the game. If the user/computer wins the first 3 rounds in a row, they've achieve a flawless victory.
 
-## Required User Stories : Please check what I have done
-- [x] I have at least three code reviews from others.
-- [x] The user can move their character with the arrow keys. 
-- [x] The user can see a monster.
-- [x] The monster is placed at a random location within the game boundaries.
-- [x] The user can catch a monster by moving their character to the same location as a monster.
-- [x] When the user catches a monster, a new monster is placed randomly upon the screen.
-- [x] The user can see the numbers of monsters she has caught. Every time she catches a monster, the number should increment by one. 
-- [x] The user can access this game from the internet (e.g. using Netlify).
-- [x] The code has been reviewed by at least one other person, using Pull Requests on GitHub.
-
-## Optional User Stories
-
-- [x] Custom styling: the developer has replaced the images for the main character, monster, and background with something of her choice.  
-- [x] The user cannot move her character off the screen. 
-- [ ] The user sees a few different types of monster each time a new monster is spawned. 
-- [x] The monster moves around on its own each frame, and the user must chase it. 
-- [ ] The map has "obstacles", such as trees, which block the user from moving through the space occupied by the obstacle. 
-- [ ] The user can hear sound effects upon movement and upon catching a monster. 
-- [ ] The user hears background music during the game. 
-- [ ] The user can see their high score. 
-
-
-The following **additional** features are implemented:
-
-* [x] List anything else that you can get done to improve the page!
 
 ## Time Spent and Lessons Learned
 
 Time spent: around 10 hours spent in total.
 
 ## Describe any challenges encountered while building the app.
-The biggest challenges I encountered is understanding the code.
-There are many built-in function I didnt know and also I needed to spend a lot of time to understand whole code logic.
-I was struggling a lot for letting monster moving around.
+The biggest challenges I encountered is understanding the logic of the coding and new function called - useState.
 
 
 ## License
