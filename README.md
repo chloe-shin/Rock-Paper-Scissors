@@ -1,68 +1,63 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# CoderSchool FTW - * Rock Paper Scissors Game by ReactJS *
 
-## Available Scripts
+Created with love by: Chloe Shin
+Please check my game at: https://chloe-game-chuonchuon.netlify.com 
 
-In the project directory, you can run:
 
-### `npm start`
+## Code Reviews
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+This code was reviewed by Charles and Loi. 
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
 
-### `npm test`
+## Required User Stories : Please check what I have done
+- [x] I have at least three code reviews from others.
+- [x] The user can move their character with the arrow keys. 
+- [x] The user can see a monster.
+- [x] The monster is placed at a random location within the game boundaries.
+- [x] The user can catch a monster by moving their character to the same location as a monster.
+- [x] When the user catches a monster, a new monster is placed randomly upon the screen.
+- [x] The user can see the numbers of monsters she has caught. Every time she catches a monster, the number should increment by one. 
+- [x] The user can access this game from the internet (e.g. using Netlify).
+- [x] The code has been reviewed by at least one other person, using Pull Requests on GitHub.
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Optional User Stories
 
-### `npm run build`
+- [x] Custom styling: the developer has replaced the images for the main character, monster, and background with something of her choice.  
+- [x] The user cannot move her character off the screen. 
+- [ ] The user sees a few different types of monster each time a new monster is spawned. 
+- [x] The monster moves around on its own each frame, and the user must chase it. 
+- [ ] The map has "obstacles", such as trees, which block the user from moving through the space occupied by the obstacle. 
+- [ ] The user can hear sound effects upon movement and upon catching a monster. 
+- [ ] The user hears background music during the game. 
+- [ ] The user can see their high score. 
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+The following **additional** features are implemented:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+* [x] List anything else that you can get done to improve the page!
 
-### `npm run eject`
+## Time Spent and Lessons Learned
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Time spent: around 10 hours spent in total.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Describe any challenges encountered while building the app.
+The biggest challenges I encountered is understanding the code.
+There are many built-in function I didnt know and also I needed to spend a lot of time to understand whole code logic.
+I was struggling a lot for letting monster moving around.
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## License
 
-## Learn More
+    Copyright Chloe
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+        http://www.apache.org/licenses/LICENSE-2.0
 
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
